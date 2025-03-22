@@ -1,0 +1,17 @@
+2025-03-19 20:53:29.427749: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /opt/easybuild/software/Python/3.8.6-GCCcore-12.2.0/lib:/opt/easybuild/software/OpenSSL/1.1/lib:/opt/easybuild/software/libffi/3.4.4-GCCcore-12.2.0/lib64:/opt/easybuild/software/GMP/6.2.1-GCCcore-12.2.0/lib:/opt/easybuild/software/XZ/5.2.7-GCCcore-12.2.0/lib:/opt/easybuild/software/SQLite/3.39.4-GCCcore-12.2.0/lib:/opt/easybuild/software/Tcl/8.6.12-GCCcore-12.2.0/lib:/opt/easybuild/software/libreadline/8.2-GCCcore-12.2.0/lib:/opt/easybuild/software/ncurses/6.3-GCCcore-12.2.0/lib:/opt/easybuild/software/bzip2/1.0.8-GCCcore-12.2.0/lib:/opt/easybuild/software/binutils/2.39-GCCcore-12.2.0/lib:/opt/easybuild/software/zlib/1.2.12-GCCcore-12.2.0/lib:/opt/easybuild/software/GCCcore/12.2.0/lib64
+2025-03-19 20:53:29.427776: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2025-03-19 20:53:59.608315: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2025-03-19 20:53:59.630416: E tensorflow/stream_executor/cuda/cuda_driver.cc:314] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2025-03-19 20:53:59.630432: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] no NVIDIA GPU device is present: /dev/nvidia0 does not exist
+2025-03-19 20:53:59.630586: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-03-19 20:53:59.691973: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 3493535000 Hz
+2025-03-19 20:53:59.692552: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x698630 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2025-03-19 20:53:59.692564: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+WARNING:tensorflow:From /home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2025-03-19 21:04:43.754832: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:From /home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.

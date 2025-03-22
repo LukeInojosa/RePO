@@ -1,0 +1,185 @@
+Requirement already satisfied: pip in /home/CIN/lims/RePO/lib/python3.8/site-packages (25.0.1)
+Requirement already satisfied: tensorflow==2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (2.3.0)
+Requirement already satisfied: absl-py>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.1.0)
+Requirement already satisfied: astunparse==1.6.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.6.3)
+Requirement already satisfied: gast==0.3.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.3.3)
+Requirement already satisfied: google-pasta>=0.1.8 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.2.0)
+Requirement already satisfied: h5py<2.11.0,>=2.10.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.10.0)
+Requirement already satisfied: keras-preprocessing<1.2,>=1.1.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.1.2)
+Requirement already satisfied: numpy<1.19.0,>=1.16.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.18.1)
+Requirement already satisfied: opt-einsum>=2.3.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (3.4.0)
+Requirement already satisfied: protobuf>=3.9.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (3.20.3)
+Requirement already satisfied: tensorboard<3,>=2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.14.0)
+Requirement already satisfied: tensorflow-estimator<2.4.0,>=2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.3.0)
+Requirement already satisfied: termcolor>=1.1.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.4.0)
+Requirement already satisfied: wrapt>=1.11.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.17.2)
+Requirement already satisfied: wheel>=0.26 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.45.1)
+Requirement already satisfied: six>=1.12.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.17.0)
+Requirement already satisfied: scipy==1.4.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.4.1)
+Requirement already satisfied: grpcio>=1.8.6 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.70.0)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.38.0)
+Requirement already satisfied: google-auth-oauthlib<1.1,>=0.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (1.0.0)
+Requirement already satisfied: markdown>=2.6.8 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.7)
+Requirement already satisfied: requests<3,>=2.21.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.32.3)
+Requirement already satisfied: setuptools>=41.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (49.2.1)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.0.6)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (5.5.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.4.1)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (4.9)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth-oauthlib<1.1,>=0.5->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.0.0)
+Requirement already satisfied: importlib-metadata>=4.4 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from markdown>=2.6.8->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (8.5.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2025.1.31)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from werkzeug>=1.0.1->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.1.5)
+Requirement already satisfied: zipp>=3.20 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from importlib-metadata>=4.4->markdown>=2.6.8->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.20.2)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.6.1)
+Requirement already satisfied: oauthlib>=3.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.2.2)
+Requirement already satisfied: pandas==1.0.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (1.0.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (2.9.0.post0)
+Requirement already satisfied: pytz>=2017.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (2025.1)
+Requirement already satisfied: numpy>=1.13.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (1.18.1)
+Requirement already satisfied: six>=1.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from python-dateutil>=2.6.1->pandas==1.0.3) (1.17.0)
+Requirement already satisfied: numpy==1.18.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (1.18.1)
+Requirement already satisfied: protobuf==3.20.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (3.20.3)
+../data/packet_based/tuesday/part_00000.npy
+../data/packet_based/tuesday/part_00001.npy
+../data/packet_based/tuesday/part_00002.npy
+../data/packet_based/tuesday/part_00003.npy
+../data/packet_based/tuesday/part_00004.npy
+../data/packet_based/tuesday/part_00005.npy
+../data/packet_based/tuesday/part_00006.npy
+../data/packet_based/tuesday/part_00007.npy
+../data/packet_based/tuesday/part_00008.npy
+../data/packet_based/tuesday/part_00009.npy
+../data/packet_based/tuesday/part_00010.npy
+../data/packet_based/tuesday/part_00011.npy
+../data/packet_based/tuesday/part_00012.npy
+../data/packet_based/tuesday/part_00013.npy
+../data/packet_based/tuesday/part_00014.npy
+../data/packet_based/tuesday/part_00015.npy
+../data/packet_based/tuesday/part_00016.npy
+../data/packet_based/tuesday/part_00017.npy
+../data/packet_based/tuesday/part_00018.npy
+../data/packet_based/tuesday/part_00019.npy
+../data/packet_based/tuesday/part_00020.npy
+../data/packet_based/tuesday/part_00021.npy
+../data/packet_based/tuesday/part_00022.npy
+../data/packet_based/tuesday/part_00023.npy
+0 1.1920928955078125e-05
+100000 57.75588417053223
+200000 115.95805287361145
+300000 174.42219471931458
+400000 232.72486066818237
+500000 290.8682427406311
+591850 344.6431715488434
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+0 9.298324584960938e-06
+100000 59.81815958023071
+200000 119.51808023452759
+300000 179.79957962036133
+400000 240.4608736038208
+500000 300.7864155769348
+600000 361.2888603210449
+700000 421.6549301147461
+704100 424.1392002105713
+../data/packet_based/thursday/part_00000.npy
+../data/packet_based/thursday/part_00001.npy
+../data/packet_based/thursday/part_00002.npy
+../data/packet_based/thursday/part_00003.npy
+../data/packet_based/thursday/part_00004.npy
+../data/packet_based/thursday/part_00005.npy
+../data/packet_based/thursday/part_00006.npy
+../data/packet_based/thursday/part_00007.npy
+../data/packet_based/thursday/part_00008.npy
+../data/packet_based/thursday/part_00009.npy
+../data/packet_based/thursday/part_00010.npy
+../data/packet_based/thursday/part_00011.npy
+../data/packet_based/thursday/part_00012.npy
+../data/packet_based/thursday/part_00013.npy
+../data/packet_based/thursday/part_00014.npy
+../data/packet_based/thursday/part_00015.npy
+../data/packet_based/thursday/part_00016.npy
+../data/packet_based/thursday/part_00017.npy
+../data/packet_based/thursday/part_00018.npy
+../data/packet_based/thursday/part_00019.npy
+0 9.775161743164062e-06
+100000 60.23158359527588
+200000 121.13242387771606
+300000 181.720773935318
+400000 242.37547707557678
+479650 290.4263119697571
+../data/packet_based/friday/part_00000.npy
+../data/packet_based/friday/part_00001.npy
+../data/packet_based/friday/part_00002.npy
+../data/packet_based/friday/part_00003.npy
+../data/packet_based/friday/part_00004.npy
+../data/packet_based/friday/part_00005.npy
+../data/packet_based/friday/part_00006.npy
+../data/packet_based/friday/part_00007.npy
+../data/packet_based/friday/part_00008.npy
+../data/packet_based/friday/part_00009.npy
+../data/packet_based/friday/part_00010.npy
+../data/packet_based/friday/part_00011.npy
+../data/packet_based/friday/part_00012.npy
+../data/packet_based/friday/part_00013.npy
+../data/packet_based/friday/part_00014.npy
+../data/packet_based/friday/part_00015.npy
+../data/packet_based/friday/part_00016.npy
+../data/packet_based/friday/part_00017.npy
+../data/packet_based/friday/part_00018.npy
+../data/packet_based/friday/part_00019.npy
+../data/packet_based/friday/part_00020.npy
+0 9.775161743164062e-06
+100000 60.51060080528259
+200000 121.18653869628906
+300000 182.49810099601746
+400000 243.55351185798645
+500000 304.40233755111694
+512600 312.0517964363098
+(2216623,) (2216623,)
+0.12096322327852249
+FPR: 0.0100
+FTP-Patator: 0.2696
+SSH-Patator: 0.0003
+Slowloris: 0.4500
+Slowhttptest: 0.1024
+Hulk: 0.3320
+GoldenEye: 0.0689
+Heartbleed: 0.0000
+Infiltration: 0.7958
+Botnet: 0.0000
+PortScan: 0.9930
+DDoS: 0.2140
+Treshold para 0.1 fpr:
+0.07062649726867676

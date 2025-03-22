@@ -1,0 +1,208 @@
+Requirement already satisfied: pip in /home/CIN/lims/RePO/lib/python3.8/site-packages (25.0.1)
+Requirement already satisfied: tensorflow==2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (2.3.0)
+Requirement already satisfied: absl-py>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.1.0)
+Requirement already satisfied: astunparse==1.6.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.6.3)
+Requirement already satisfied: gast==0.3.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.3.3)
+Requirement already satisfied: google-pasta>=0.1.8 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.2.0)
+Requirement already satisfied: h5py<2.11.0,>=2.10.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.10.0)
+Requirement already satisfied: keras-preprocessing<1.2,>=1.1.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.1.2)
+Requirement already satisfied: numpy<1.19.0,>=1.16.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.18.1)
+Requirement already satisfied: opt-einsum>=2.3.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (3.4.0)
+Requirement already satisfied: protobuf>=3.9.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (3.20.3)
+Requirement already satisfied: tensorboard<3,>=2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.14.0)
+Requirement already satisfied: tensorflow-estimator<2.4.0,>=2.3.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.3.0)
+Requirement already satisfied: termcolor>=1.1.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (2.4.0)
+Requirement already satisfied: wrapt>=1.11.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.17.2)
+Requirement already satisfied: wheel>=0.26 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (0.45.1)
+Requirement already satisfied: six>=1.12.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.17.0)
+Requirement already satisfied: scipy==1.4.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.4.1)
+Requirement already satisfied: grpcio>=1.8.6 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorflow==2.3.0) (1.70.0)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.38.0)
+Requirement already satisfied: google-auth-oauthlib<1.1,>=0.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (1.0.0)
+Requirement already satisfied: markdown>=2.6.8 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.7)
+Requirement already satisfied: requests<3,>=2.21.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.32.3)
+Requirement already satisfied: setuptools>=41.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (49.2.1)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.0.6)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (5.5.2)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.4.1)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (4.9)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from google-auth-oauthlib<1.1,>=0.5->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.0.0)
+Requirement already satisfied: importlib-metadata>=4.4 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from markdown>=2.6.8->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (8.5.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.2.3)
+Requirement already satisfied: certifi>=2017.4.17 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests<3,>=2.21.0->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2025.1.31)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from werkzeug>=1.0.1->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (2.1.5)
+Requirement already satisfied: zipp>=3.20 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from importlib-metadata>=4.4->markdown>=2.6.8->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.20.2)
+Requirement already satisfied: pyasn1<0.7.0,>=0.4.6 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (0.6.1)
+Requirement already satisfied: oauthlib>=3.0.0 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard<3,>=2.3.0->tensorflow==2.3.0) (3.2.2)
+Requirement already satisfied: pandas==1.0.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (1.0.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (2.9.0.post0)
+Requirement already satisfied: pytz>=2017.2 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (2025.1)
+Requirement already satisfied: numpy>=1.13.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from pandas==1.0.3) (1.18.1)
+Requirement already satisfied: six>=1.5 in /home/CIN/lims/RePO/lib/python3.8/site-packages (from python-dateutil>=2.6.1->pandas==1.0.3) (1.17.0)
+Requirement already satisfied: numpy==1.18.1 in /home/CIN/lims/RePO/lib/python3.8/site-packages (1.18.1)
+Requirement already satisfied: protobuf==3.20.3 in /home/CIN/lims/RePO/lib/python3.8/site-packages (3.20.3)
+../data/packet_based/monday/part_000.npy
+../data/packet_based/monday/part_001.npy
+../data/packet_based/monday/part_002.npy
+../data/packet_based/monday/part_003.npy
+../data/packet_based/monday/part_004.npy
+../data/packet_based/monday/part_005.npy
+../data/packet_based/monday/part_006.npy
+../data/packet_based/monday/part_007.npy
+../data/packet_based/monday/part_008.npy
+../data/packet_based/monday/part_009.npy
+../data/packet_based/monday/part_010.npy
+../data/packet_based/monday/part_011.npy
+../data/packet_based/monday/part_012.npy
+../data/packet_based/monday/part_013.npy
+../data/packet_based/monday/part_014.npy
+../data/packet_based/monday/part_015.npy
+../data/packet_based/monday/part_016.npy
+../data/packet_based/monday/part_017.npy
+../data/packet_based/monday/part_018.npy
+../data/packet_based/monday/part_019.npy
+../data/packet_based/monday/part_020.npy
+../data/packet_based/monday/part_021.npy
+../data/packet_based/monday/part_022.npy
+../data/packet_based/monday/part_023.npy
+../data/packet_based/monday/part_024.npy
+../data/packet_based/monday/part_025.npy
+../data/packet_based/monday/part_026.npy
+../data/packet_based/monday/part_027.npy
+../data/packet_based/monday/part_028.npy
+../data/packet_based/monday/part_029.npy
+../data/packet_based/monday/part_030.npy
+../data/packet_based/monday/part_031.npy
+../data/packet_based/monday/part_032.npy
+../data/packet_based/monday/part_033.npy
+../data/packet_based/monday/part_034.npy
+../data/packet_based/monday/part_035.npy
+../data/packet_based/monday/part_036.npy
+../data/packet_based/monday/part_037.npy
+../data/packet_based/monday/part_038.npy
+../data/packet_based/monday/part_039.npy
+../data/packet_based/monday/part_040.npy
+../data/packet_based/monday/part_041.npy
+../data/packet_based/monday/part_042.npy
+../data/packet_based/monday/part_043.npy
+../data/packet_based/monday/part_044.npy
+../data/packet_based/monday/part_045.npy
+../data/packet_based/monday/part_046.npy
+../data/packet_based/monday/part_047.npy
+../data/packet_based/monday/part_048.npy
+../data/packet_based/monday/part_049.npy
+../data/packet_based/monday/part_050.npy
+../data/packet_based/monday/part_051.npy
+../data/packet_based/monday/part_052.npy
+../data/packet_based/monday/part_053.npy
+../data/packet_based/monday/part_054.npy
+../data/packet_based/monday/part_055.npy
+../data/packet_based/monday/part_056.npy
+../data/packet_based/monday/part_057.npy
+../data/packet_based/monday/part_058.npy
+../data/packet_based/monday/part_059.npy
+../data/packet_based/monday/part_060.npy
+../data/packet_based/monday/part_061.npy
+../data/packet_based/monday/part_062.npy
+../data/packet_based/monday/part_063.npy
+../data/packet_based/monday/part_064.npy
+../data/packet_based/monday/part_065.npy
+../data/packet_based/monday/part_066.npy
+../data/packet_based/monday/part_067.npy
+../data/packet_based/monday/part_068.npy
+../data/packet_based/monday/part_069.npy
+../data/packet_based/monday/part_070.npy
+../data/packet_based/monday/part_071.npy
+../data/packet_based/monday/part_072.npy
+../data/packet_based/monday/part_073.npy
+../data/packet_based/monday/part_074.npy
+../data/packet_based/monday/part_075.npy
+../data/packet_based/monday/part_076.npy
+../data/packet_based/monday/part_077.npy
+../data/packet_based/monday/part_078.npy
+../data/packet_based/monday/part_079.npy
+../data/packet_based/monday/part_080.npy
+../data/packet_based/monday/part_081.npy
+../data/packet_based/monday/part_082.npy
+../data/packet_based/monday/part_083.npy
+../data/packet_based/monday/part_084.npy
+../data/packet_based/monday/part_085.npy
+../data/packet_based/monday/part_086.npy
+../data/packet_based/monday/part_087.npy
+../data/packet_based/monday/part_088.npy
+../data/packet_based/monday/part_089.npy
+../data/packet_based/monday/part_090.npy
+../data/packet_based/monday/part_091.npy
+../data/packet_based/monday/part_092.npy
+../data/packet_based/monday/part_093.npy
+../data/packet_based/monday/part_094.npy
+../data/packet_based/monday/part_095.npy
+../data/packet_based/monday/part_096.npy
+../data/packet_based/monday/part_097.npy
+../data/packet_based/monday/part_098.npy
+../data/packet_based/monday/part_099.npy
+../data/packet_based/monday/part_100.npy
+../data/packet_based/monday/part_101.npy
+../data/packet_based/monday/part_102.npy
+../data/packet_based/monday/part_103.npy
+../data/packet_based/monday/part_104.npy
+../data/packet_based/monday/part_105.npy
+../data/packet_based/monday/part_106.npy
+../data/packet_based/monday/part_107.npy
+../data/packet_based/monday/part_108.npy
+../data/packet_based/monday/part_109.npy
+../data/packet_based/monday/part_110.npy
+../data/packet_based/monday/part_111.npy
+../data/packet_based/monday/part_112.npy
+../data/packet_based/monday/part_113.npy
+../data/packet_based/monday/part_114.npy
+../data/packet_based/monday/part_115.npy
+../data/packet_based/monday/part_116.npy
+../data/packet_based/monday/part_117.npy
+../data/packet_based/monday/part_118.npy
+../data/packet_based/monday/part_119.npy
+../data/packet_based/monday/part_120.npy
+../data/packet_based/monday/part_121.npy
+../data/packet_based/monday/part_122.npy
+../data/packet_based/monday/part_123.npy
+../data/packet_based/monday/part_124.npy
+../data/packet_based/monday/part_125.npy
+../data/packet_based/monday/part_126.npy
+Train set shape and type: (12696652, 29) float32
+x_train_partial float32
+trained time 4.459981679916382 0 out of 10000 loss: 0.13203259
+trained time 25.332172632217407 1000 out of 10000 loss: 0.01663286
+trained time 46.24220633506775 2000 out of 10000 loss: 0.014671539
+trained time 67.37182784080505 3000 out of 10000 loss: 0.013655004
+trained time 88.33477020263672 4000 out of 10000 loss: 0.0130307125
+trained time 109.35422825813293 5000 out of 10000 loss: 0.012590929
+trained time 130.28785300254822 6000 out of 10000 loss: 0.012247543
+trained time 151.21028399467468 7000 out of 10000 loss: 0.011971968
+trained time 172.21637773513794 8000 out of 10000 loss: 0.011746405
+trained time 193.27600955963135 9000 out of 10000 loss: 0.011554688
+x_train_partial float32
+trained time 218.4950032234192 0 out of 10000 loss: 0.009262672
+trained time 239.77144241333008 1000 out of 10000 loss: 0.009684873
+trained time 260.94646692276 2000 out of 10000 loss: 0.009642543
+trained time 282.00013256073 3000 out of 10000 loss: 0.009614732
+trained time 303.1724216938019 4000 out of 10000 loss: 0.009599378
+trained time 324.2737696170807 5000 out of 10000 loss: 0.009579891
+trained time 345.2839288711548 6000 out of 10000 loss: 0.009568035
+trained time 366.8879449367523 7000 out of 10000 loss: 0.00955405
+trained time 387.8764898777008 8000 out of 10000 loss: 0.00953885
+trained time 409.1254825592041 9000 out of 10000 loss: 0.009527118
+x_train_partial float32
+trained time 434.31207370758057 0 out of 10000 loss: 0.009831427
+trained time 455.2695016860962 1000 out of 10000 loss: 0.009407932
+trained time 476.18933057785034 2000 out of 10000 loss: 0.009400528
+trained time 497.1924192905426 3000 out of 10000 loss: 0.009396068
+trained time 518.1248164176941 4000 out of 10000 loss: 0.009398116
+trained time 539.1369750499725 5000 out of 10000 loss: 0.009393008
+trained time 560.088924407959 6000 out of 10000 loss: 0.009388984
+trained time 581.0307171344757 7000 out of 10000 loss: 0.00938539
+trained time 602.029470205307 8000 out of 10000 loss: 0.009382962
+trained time 623.0292484760284 9000 out of 10000 loss: 0.009383467
+total time 643.9381155967712

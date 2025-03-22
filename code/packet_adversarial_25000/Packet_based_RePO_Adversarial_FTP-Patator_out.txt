@@ -1,0 +1,40 @@
+../data/packet_based/tuesday/part_00000.npy
+../data/packet_based/tuesday/part_00001.npy
+../data/packet_based/tuesday/part_00002.npy
+../data/packet_based/tuesday/part_00003.npy
+../data/packet_based/tuesday/part_00004.npy
+../data/packet_based/tuesday/part_00005.npy
+../data/packet_based/tuesday/part_00006.npy
+../data/packet_based/tuesday/part_00007.npy
+../data/packet_based/tuesday/part_00008.npy
+../data/packet_based/tuesday/part_00009.npy
+../data/packet_based/tuesday/part_00010.npy
+../data/packet_based/tuesday/part_00011.npy
+../data/packet_based/tuesday/part_00012.npy
+../data/packet_based/tuesday/part_00013.npy
+../data/packet_based/tuesday/part_00014.npy
+../data/packet_based/tuesday/part_00015.npy
+../data/packet_based/tuesday/part_00016.npy
+../data/packet_based/tuesday/part_00017.npy
+../data/packet_based/tuesday/part_00018.npy
+../data/packet_based/tuesday/part_00019.npy
+../data/packet_based/tuesday/part_00020.npy
+../data/packet_based/tuesday/part_00021.npy
+../data/packet_based/tuesday/part_00022.npy
+../data/packet_based/tuesday/part_00023.npy
+(11837595, 29) (11837595,)
+(110755, 29)
+0 8.58306884765625e-06
+979 2.1147804260253906
+TPR in normal setting for FTP-Patator is 0.6224
+# 100 3.268865378697713 44 33 4
+# 200 9.655505394935608 132 38 11
+# 300 11.45619386434555 158 88 35
+# 400 16.33843228419622 225 98 58
+# 500 22.788832680384317 313 105 63
+# 600 24.60082066853841 341 140 100
+# 700 30.811050589879354 425 144 112
+# 800 36.302621905008955 502 158 121
+# 900 39.03856765429179 540 175 166
+duration: 2716.771990776062
+TPR in adversarial setting for FTP-Patator is 0.6250
