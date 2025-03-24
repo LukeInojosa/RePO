@@ -1,0 +1,94 @@
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+(14082078, 29) (14082078,)
+(39276, 29)
+0 9.059906005859375e-06
+2479 5.742337703704834
+TPR in normal setting for Slowhttptest is 0.4698
+# 100 4.691855891545614 61 17 3
+# 200 12.391430767377217 161 17 3
+# 300 20.08701163927714 261 17 3
+# 400 27.813531967004142 361 17 3
+# 500 35.51674315929413 461 17 3
+# 600 43.23159973621368 561 17 3
+# 700 50.93702215353648 661 17 3
+# 800 56.274206749598186 724 46 11
+# 900 59.04935514132182 754 107 20
+# 1000 61.38178118069967 778 171 32
+# 1100 61.38617864449819 778 266 37
+# 1200 63.99069244861603 809 326 46
+# 1300 64.63846475283304 815 407 59
+# 1400 65.56312570969264 825 492 64
+# 1500 65.5668875614802 825 588 68
+# 1600 68.04849066336949 857 647 77
+# 1700 69.83873736461004 877 723 81
+# 1800 69.84266126950583 877 819 85
+# 1900 71.18437880277634 891 898 92
+# 2000 72.588325659434 905 981 95
+# 2100 72.97835970719656 910 1073 98
+# 2200 80.23401218255361 1000 1078 103
+# 2300 81.52166163921356 1014 1161 106
+# 2400 82.50358144839605 1024 1242 115
+duration: 5050.307376384735
+TPR in adversarial setting for Slowhttptest is 0.4160
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+(14082078, 29) (14082078,)
+(2245545, 29)
+0 7.867813110351562e-06
+2479 5.019288778305054
+TPR in normal setting for Hulk is 0.9710

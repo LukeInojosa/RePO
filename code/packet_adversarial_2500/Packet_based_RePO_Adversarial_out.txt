@@ -1,0 +1,438 @@
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+(14082078, 29) (14082078,)
+(2245545, 29)
+0 1.4543533325195312e-05
+2479 12.960615396499634
+TPR in normal setting for Hulk is 0.9681
+# 100 10.817269523938497 65 16 0
+# 200 23.1585715174675 141 37 3
+# 300 40.23010210196177 241 37 3
+# 400 52.566891225179035 313 60 8
+# 500 69.1901086250941 413 60 8
+# 600 86.0685233314832 513 60 8
+# 700 102.7755553483963 613 60 8
+# 800 119.38798074324926 713 60 8
+# 900 136.00086885293325 810 62 9
+# 1000 153.19751927455266 903 63 15
+# 1100 166.28111017942427 987 76 18
+# 1200 181.46114183266957 1075 84 22
+# 1300 197.78947391112646 1175 84 22
+# 1400 214.39815949201585 1274 84 23
+# 1500 231.32672786712646 1373 84 24
+# 1600 247.39567888180414 1473 84 24
+# 1700 264.42399506966274 1573 84 24
+# 1800 280.9266856710116 1673 84 24
+# 1900 297.24786936044694 1773 84 24
+# 2000 314.2908253788948 1873 84 24
+# 2100 330.6152664899826 1973 84 24
+# 2200 347.7245554685593 2073 84 24
+# 2300 363.6260314623515 2170 84 27
+# 2400 381.5189043124517 2270 84 27
+duration: 23886.165150403976
+TPR in adversarial setting for Hulk is 0.9480
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+(14082078, 29) (14082078,)
+(106196, 29)
+0 1.049041748046875e-05
+2479 12.640023946762085
+TPR in normal setting for GoldenEye is 0.7879
+# 100 10.809978652000428 63 14 4
+# 200 26.93074671427409 156 15 10
+# 300 44.00538412332535 256 15 10
+# 400 61.07337539196014 356 15 10
+# 500 78.13570357163748 456 15 10
+# 600 95.19950805902481 556 15 10
+# 700 112.35470393498738 656 15 10
+# 800 129.51113641659418 756 15 10
+# 900 143.29409269094467 828 33 20
+# 1000 157.18940334717433 902 58 21
+# 1100 169.5203958074252 970 82 29
+# 1200 169.53226618766786 970 177 34
+# 1300 186.76298816601437 1070 177 34
+# 1400 190.46745816469192 1088 241 52
+# 1500 190.47602331638336 1088 341 52
+# 1600 205.4138404607773 1176 352 53
+# 1700 222.67656485239664 1271 354 56
+# 1800 231.57474719285966 1321 390 70
+# 1900 248.06239221096038 1412 392 77
+# 2000 262.4255290150642 1495 396 90
+# 2100 270.72431672811507 1547 427 107
+# 2200 284.01340705156326 1619 448 114
+# 2300 287.63169533809025 1639 502 140
+# 2400 301.3384595751762 1721 516 144
+duration: 18538.621601343155
+TPR in adversarial setting for GoldenEye is 0.7044
+../data/packet_based/wednesday/part_00000.npy
+../data/packet_based/wednesday/part_00001.npy
+../data/packet_based/wednesday/part_00002.npy
+../data/packet_based/wednesday/part_00003.npy
+../data/packet_based/wednesday/part_00004.npy
+../data/packet_based/wednesday/part_00005.npy
+../data/packet_based/wednesday/part_00006.npy
+../data/packet_based/wednesday/part_00007.npy
+../data/packet_based/wednesday/part_00008.npy
+../data/packet_based/wednesday/part_00009.npy
+../data/packet_based/wednesday/part_00010.npy
+../data/packet_based/wednesday/part_00011.npy
+../data/packet_based/wednesday/part_00012.npy
+../data/packet_based/wednesday/part_00013.npy
+../data/packet_based/wednesday/part_00014.npy
+../data/packet_based/wednesday/part_00015.npy
+../data/packet_based/wednesday/part_00016.npy
+../data/packet_based/wednesday/part_00017.npy
+../data/packet_based/wednesday/part_00018.npy
+../data/packet_based/wednesday/part_00019.npy
+../data/packet_based/wednesday/part_00020.npy
+../data/packet_based/wednesday/part_00021.npy
+../data/packet_based/wednesday/part_00022.npy
+../data/packet_based/wednesday/part_00023.npy
+../data/packet_based/wednesday/part_00024.npy
+../data/packet_based/wednesday/part_00025.npy
+../data/packet_based/wednesday/part_00026.npy
+../data/packet_based/wednesday/part_00027.npy
+../data/packet_based/wednesday/part_00028.npy
+(14082078, 29) (14082078,)
+(49315, 29)
+0 1.811981201171875e-05
+2479 12.540904998779297
+TPR in normal setting for Heartbleed is 0.5294
+# 100 0.6130879918734232 3 66 12
+# 200 1.13106769323349 4 140 37
+# 300 3.635571591059367 20 194 67
+# 400 4.736481722195943 25 267 89
+# 500 5.670551327864329 30 336 115
+# 600 6.219175680478414 32 408 141
+# 700 6.627670176823934 34 484 163
+# 800 7.240639607111613 36 559 186
+# 900 7.8611713965733845 38 623 220
+# 1000 8.134418686230978 39 695 247
+# 1100 8.326200862725576 39 772 270
+# 1200 8.79390263557434 41 841 299
+# 1300 9.05081249475479 42 921 318
+# 1400 10.423170677820842 49 989 343
+# 1500 12.847191532452902 63 1046 372
+# 1600 13.250783793131511 65 1125 391
+# 1700 14.053461972872416 68 1200 413
+# 1800 16.06390118598938 80 1265 436
+# 1900 16.84403286377589 83 1341 457
+# 2000 20.629461030165356 105 1387 489
+# 2100 21.253889203071594 107 1449 525
+# 2200 22.043086632092795 111 1520 550
+# 2300 23.11017017364502 116 1586 579
+# 2400 25.700909570852914 132 1644 605
+duration: 1644.9109172821045
+TPR in adversarial setting for Heartbleed is 0.0564
+../data/packet_based/thursday/part_00000.npy
+../data/packet_based/thursday/part_00001.npy
+../data/packet_based/thursday/part_00002.npy
+../data/packet_based/thursday/part_00003.npy
+../data/packet_based/thursday/part_00004.npy
+../data/packet_based/thursday/part_00005.npy
+../data/packet_based/thursday/part_00006.npy
+../data/packet_based/thursday/part_00007.npy
+../data/packet_based/thursday/part_00008.npy
+../data/packet_based/thursday/part_00009.npy
+../data/packet_based/thursday/part_00010.npy
+../data/packet_based/thursday/part_00011.npy
+../data/packet_based/thursday/part_00012.npy
+../data/packet_based/thursday/part_00013.npy
+../data/packet_based/thursday/part_00014.npy
+../data/packet_based/thursday/part_00015.npy
+../data/packet_based/thursday/part_00016.npy
+../data/packet_based/thursday/part_00017.npy
+../data/packet_based/thursday/part_00018.npy
+../data/packet_based/thursday/part_00019.npy
+(9593230, 29) (9593230,)
+(39842, 29)
+0 1.0967254638671875e-05
+2479 12.584919691085815
+TPR in normal setting for Web-Attack is 0.2141
+# 100 0.8823307037353516 5 67 9
+# 200 2.2383667548497517 12 154 15
+# 300 5.074032290776571 28 226 27
+# 400 5.839810351530711 32 307 42
+# 500 6.653411897023519 35 393 53
+# 600 7.48989337682724 38 477 66
+# 700 9.03341712554296 47 559 75
+# 800 10.634442675113679 56 631 94
+# 900 12.066818002859751 64 704 113
+# 1000 13.589485466480255 74 772 135
+# 1100 16.451687427361808 91 840 150
+# 1200 21.240359858671823 114 897 170
+# 1300 23.087673409779867 125 972 184
+# 1400 24.69336453676224 132 1045 204
+# 1500 26.713288712501527 143 1115 223
+# 1600 29.31034215291341 157 1180 244
+# 1700 31.548556192715964 169 1241 271
+# 1800 33.472615138689676 179 1306 296
+# 1900 34.85477548837662 186 1377 318
+# 2000 36.52204930782318 195 1458 328
+# 2100 38.549818217754364 207 1523 351
+# 2200 38.92744553089142 209 1610 362
+# 2300 40.261262305577596 217 1691 373
+# 2400 42.8352227250735 231 1762 388
+duration: 2797.5264208316803
+TPR in adversarial setting for Web-Attack is 0.1004
+../data/packet_based/thursday/part_00000.npy
+../data/packet_based/thursday/part_00001.npy
+../data/packet_based/thursday/part_00002.npy
+../data/packet_based/thursday/part_00003.npy
+../data/packet_based/thursday/part_00004.npy
+../data/packet_based/thursday/part_00005.npy
+../data/packet_based/thursday/part_00006.npy
+../data/packet_based/thursday/part_00007.npy
+../data/packet_based/thursday/part_00008.npy
+../data/packet_based/thursday/part_00009.npy
+../data/packet_based/thursday/part_00010.npy
+../data/packet_based/thursday/part_00011.npy
+../data/packet_based/thursday/part_00012.npy
+../data/packet_based/thursday/part_00013.npy
+../data/packet_based/thursday/part_00014.npy
+../data/packet_based/thursday/part_00015.npy
+../data/packet_based/thursday/part_00016.npy
+../data/packet_based/thursday/part_00017.npy
+../data/packet_based/thursday/part_00018.npy
+../data/packet_based/thursday/part_00019.npy
+(9593230, 29) (9593230,)
+(209939, 29)
+0 1.33514404296875e-05
+2479 12.73605990409851
+TPR in normal setting for Infiltration is 0.0633
+# 100 1.3191963672637939 8 70 3
+# 200 1.3282834092775981 8 167 6
+# 300 2.115221548080444 13 253 15
+# 400 2.1238592584927876 13 353 15
+# 500 2.13258474667867 13 453 15
+# 600 3.082776383558909 19 537 25
+# 700 5.019382977485657 34 602 45
+# 800 5.028200594584147 34 702 45
+# 900 5.037518731753031 34 800 47
+# 1000 6.573562836647033 43 871 67
+# 1100 7.2977944135665895 48 958 75
+# 1200 7.306483419736226 48 1058 75
+# 1300 7.315191773573558 48 1158 75
+# 1400 7.323786584536235 48 1258 75
+# 1500 8.376012448469798 55 1343 83
+# 1600 9.626430586973827 63 1419 99
+# 1700 10.66409215927124 70 1508 103
+# 1800 10.672820202509563 70 1608 103
+# 1900 12.386358261108398 82 1679 120
+# 2000 12.395147693157195 82 1779 120
+# 2100 12.406571022669475 82 1875 124
+# 2200 16.148391950130463 107 1933 141
+# 2300 16.395986211299896 109 2025 147
+# 2400 16.404726513226827 109 2125 147
+duration: 984.8152077198029
+TPR in adversarial setting for Infiltration is 0.0436
+../data/packet_based/friday/part_00000.npy
+../data/packet_based/friday/part_00001.npy
+../data/packet_based/friday/part_00002.npy
+../data/packet_based/friday/part_00003.npy
+../data/packet_based/friday/part_00004.npy
+../data/packet_based/friday/part_00005.npy
+../data/packet_based/friday/part_00006.npy
+../data/packet_based/friday/part_00007.npy
+../data/packet_based/friday/part_00008.npy
+../data/packet_based/friday/part_00009.npy
+../data/packet_based/friday/part_00010.npy
+../data/packet_based/friday/part_00011.npy
+../data/packet_based/friday/part_00012.npy
+../data/packet_based/friday/part_00013.npy
+../data/packet_based/friday/part_00014.npy
+../data/packet_based/friday/part_00015.npy
+../data/packet_based/friday/part_00016.npy
+../data/packet_based/friday/part_00017.npy
+../data/packet_based/friday/part_00018.npy
+../data/packet_based/friday/part_00019.npy
+../data/packet_based/friday/part_00020.npy
+(10252094, 29) (10252094,)
+(9890, 29)
+0 9.5367431640625e-06
+2479 12.793104887008667
+TPR in normal setting for Botnet is 0.4673
+# 100 1.6968439857165019 9 41 31
+# 200 3.1857026974360148 18 117 46
+# 300 6.971919171015421 39 162 80
+# 400 13.081357077757518 77 183 121
+# 500 16.074650764465332 93 252 136
+# 600 20.694425706068674 122 289 170
+# 700 23.833052730560304 142 346 193
+# 800 28.62105516990026 169 382 230
+# 900 31.41518677075704 187 441 253
+# 1000 33.52336395581563 199 513 269
+# 1100 35.93596392075221 214 577 290
+# 1200 38.59135405619939 229 643 309
+# 1300 42.58067081371943 252 672 357
+# 1400 50.49973785877228 297 684 400
+# 1500 59.14043233394623 349 705 427
+# 1600 67.16554682254791 397 725 459
+# 1700 74.04781523942947 440 750 491
+# 1800 79.63953424692154 475 784 522
+# 1900 84.9674589753151 506 825 550
+# 2000 88.21686548789343 528 886 567
+# 2100 92.71803092956543 556 940 585
+# 2200 98.18871077299119 590 978 613
+# 2300 104.93898116747538 631 1009 641
+# 2400 112.74520392815272 678 1033 670
+duration: 7022.694309949875
+TPR in adversarial setting for Botnet is 0.2820
+../data/packet_based/friday/part_00000.npy
+../data/packet_based/friday/part_00001.npy
+../data/packet_based/friday/part_00002.npy
+../data/packet_based/friday/part_00003.npy
+../data/packet_based/friday/part_00004.npy
+../data/packet_based/friday/part_00005.npy
+../data/packet_based/friday/part_00006.npy
+../data/packet_based/friday/part_00007.npy
+../data/packet_based/friday/part_00008.npy
+../data/packet_based/friday/part_00009.npy
+../data/packet_based/friday/part_00010.npy
+../data/packet_based/friday/part_00011.npy
+../data/packet_based/friday/part_00012.npy
+../data/packet_based/friday/part_00013.npy
+../data/packet_based/friday/part_00014.npy
+../data/packet_based/friday/part_00015.npy
+../data/packet_based/friday/part_00016.npy
+../data/packet_based/friday/part_00017.npy
+../data/packet_based/friday/part_00018.npy
+../data/packet_based/friday/part_00019.npy
+../data/packet_based/friday/part_00020.npy
+(10252094, 29) (10252094,)
+(324081, 29)
+0 9.5367431640625e-06
+2479 12.454204320907593
+TPR in normal setting for PortScan is 0.8879
+# 100 12.755124338467915 75 6 0
+# 200 29.91451968352 175 6 0
+# 300 46.99302043914795 275 6 0
+# 400 64.58268870512644 375 6 0
+# 500 82.44138436714807 475 6 0
+# 600 99.9438709696134 575 6 0
+# 700 117.53282887538275 675 6 0
+# 800 126.39830435911814 727 40 14
+# 900 136.32801405588785 786 70 25
+# 1000 146.59667697350184 847 98 36
+# 1100 154.2709919412931 892 143 46
+# 1200 165.6759703040123 959 171 51
+# 1300 173.82582691510518 1006 212 63
+# 1400 185.83062508106232 1074 235 72
+# 1500 190.73136828343073 1104 298 79
+# 1600 204.42243258953096 1186 313 82
+# 1700 220.54695474306743 1286 313 82
+# 1800 236.58601981401443 1386 313 82
+# 1900 252.70359259049098 1486 313 82
+# 2000 268.9049619634946 1586 313 82
+# 2100 284.9303091963132 1686 313 82
+# 2200 301.1296818256378 1786 313 82
+# 2300 317.23789339065553 1886 313 82
+# 2400 333.3450572252274 1986 313 82
+duration: 20967.211045980453
+TPR in adversarial setting for PortScan is 0.8344
+../data/packet_based/friday/part_00000.npy
+../data/packet_based/friday/part_00001.npy
+../data/packet_based/friday/part_00002.npy
+../data/packet_based/friday/part_00003.npy
+../data/packet_based/friday/part_00004.npy
+../data/packet_based/friday/part_00005.npy
+../data/packet_based/friday/part_00006.npy
+../data/packet_based/friday/part_00007.npy
+../data/packet_based/friday/part_00008.npy
+../data/packet_based/friday/part_00009.npy
+../data/packet_based/friday/part_00010.npy
+../data/packet_based/friday/part_00011.npy
+../data/packet_based/friday/part_00012.npy
+../data/packet_based/friday/part_00013.npy
+../data/packet_based/friday/part_00014.npy
+../data/packet_based/friday/part_00015.npy
+../data/packet_based/friday/part_00016.npy
+../data/packet_based/friday/part_00017.npy
+../data/packet_based/friday/part_00018.npy
+../data/packet_based/friday/part_00019.npy
+../data/packet_based/friday/part_00020.npy
+(10252094, 29) (10252094,)
+(1280621, 29)
+0 9.775161743164062e-06
+2479 12.59391474723816
+TPR in normal setting for DDoS is 0.6000
+# 100 0.007772902647654216 0 80 1
+# 200 6.477078024546305 42 112 27
+# 300 14.595785609881084 91 141 49
+# 400 23.759481763839723 146 167 68
+# 500 31.021647763252258 191 206 84
+# 600 37.795250511169435 232 246 103
+# 700 45.93002687692642 282 279 120
+# 800 49.73443051576614 306 332 143
+# 900 56.5501300295194 346 384 151
+# 1000 64.03080306450526 389 433 159
+# 1100 80.4829837401708 480 434 167
+# 1200 86.24344927867254 517 477 187
+# 1300 94.06603405872981 562 510 209
+# 1400 106.97174659172694 640 524 217
+# 1500 119.9059226711591 717 546 218
+# 1600 129.56108221610387 774 581 226
+# 1700 136.89676852623623 819 610 252
+# 1800 142.2448075334231 854 642 285
+# 1900 152.805785437425 917 668 296
+# 2000 161.63035711050034 970 695 316
+# 2100 167.42751967906952 1011 740 330
+# 2200 180.10330014626186 1085 762 334
+# 2300 187.44053223927816 1130 799 352
+# 2400 194.05111817121505 1168 845 368
+duration: 12231.520287752151
+TPR in adversarial setting for DDoS is 0.4924
