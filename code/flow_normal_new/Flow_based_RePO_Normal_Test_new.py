@@ -10,13 +10,10 @@ import pandas as pd
 
 
 def get_test_set():
-    test_files = ['../data/flow_based/Tuesday-WH-generate-labeled.csv',
-                '../data/flow_based/Wednesday-WH-generate-labeled.csv',
-                '../data/flow_based/Thursday-WH-generate-labeled.csv',
-                '../data/flow_based/Friday-WH-generate-labeled.csv']
+    test_files = ['../data/flow_based/new_dataset/Test.csv']
 
-    train_min = np.load('../data/flow_based/x_train_meta/train_min.npy')
-    train_max = np.load('../data/flow_based/x_train_meta/train_max.npy')
+    train_min = np.load('../data/flow_based/new_dataset/train_min.npy')
+    train_max = np.load('../data/flow_based/new_dataset/train_max.npy')
 
     x_test_all = []
     y_test_all = []
@@ -26,9 +23,9 @@ def get_test_set():
         url_data = test_files[i]
         df = pd.read_csv(url_data)
 
-        feats = df.iloc[:,8:]
-        ds_port = df.iloc[:,5]
-        df = pd.concat([ds_port,feats],axis=1)
+#        feats = df.iloc[:,8:]
+#        ds_port = df.iloc[:,5]
+#        df = pd.concat([ds_port,feats],axis=1)
 
         labels = df.iloc[:,-1].values
         label_set = set(labels)
@@ -82,14 +79,13 @@ def get_scores(x_test):
     return score_np
 
 
-model = tf.keras.models.load_model('../models/flw_model/')
+model = tf.keras.models.load_model('../models/flw_model_new/')
 
 x_test, y_test = get_test_set()
 num_input = x_test.shape[1]
 
 
-label_names = ['BENIGN','FTP-Patator','SSH-Patator','DoS slowloris','DoS Slowhttptest','DoS Hulk','DoS GoldenEye',
-          'Heartbleed','Web Attack','Infiltration', 'Bot', 'PortScan', 'DDoS']
+label_names = ['BENIGN', 'Bot', 'FTP-BruteForce', 'SSH-Bruteforce', 'DDoS attacks-LOIC-HTTP', 'DDOS attack-LOIC-UDP','DDOS attack-HOIC', 'DoS attacks-GoldenEye', 'DoS slowloris','DoS Slowhttptest', 'DoS Hulk', 'Infiltration', 'Brute Force -Web','Brute Force -XSS', 'SQL Injection']
 
 
 all_scores = get_scores(x_test)
@@ -98,8 +94,9 @@ all_scores = get_scores(x_test)
 fpr = 0.01
 benign_scores = all_scores[y_test=='BENIGN']
 benign_scores_sorted = np.sort(benign_scores)
-thr_ind = int(np.ceil(len(benign_scores_sorted)*0.01))
+thr_ind = int(np.ceil(len(benign_scores_sorted)*fpr))
 thr = benign_scores_sorted[-thr_ind]
+print("treshold para 0.01")
 print (thr)
 
 
@@ -116,3 +113,11 @@ for i in range(len(label_names)):
         tpr = "{0:0.4f}".format(np.sum(scores>=thr)/(0. + len(scores)))
         print(label_names[i]+':',tpr)
 
+
+fpr = 0.1
+benign_scores = all_scores[y_test=='BENIGN']
+benign_scores_sorted = np.sort(benign_scores)
+thr_ind = int(np.ceil(len(benign_scores_sorted)*fpr))
+thr = benign_scores_sorted[-thr_ind]
+print("treshold para 0.1")
+print (thr)

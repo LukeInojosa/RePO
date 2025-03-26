@@ -6,8 +6,8 @@
 #SBATCH -c 32
 #SBATCH --mem 64G
 #SBATCH -o job.log
-#SBATCH --output=packet_adversarial_2500/Packet_based_RePO_Adversarial_out.txt
-#SBATCH --error=packet_adversarial_2500/Packet_based_RePO_Adversarial_error.txt
+#SBATCH --output=packet_adversarial_2500/Packet_based_RePO_Adversarial_out2.txt
+#SBATCH --error=packet_adversarial_2500/Packet_based_RePO_Adversarial_error2.txt
 
 #carregar versão python
 module load Python/3.8

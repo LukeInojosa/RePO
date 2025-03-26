@@ -9,20 +9,17 @@ import pandas as pd
 
 
 ### At this threshold the FPR of the model we trained is 0.1
-real_thr = 0.01653931848704815
+real_thr = 0.027093693614006042
 ### We consider a threshold lower than the real threshold of the model to compensate the impact of group 4 features
 ### as described in "Towards Evaluation of NIDSs in Adversarial Setting"
 thr = real_thr*0.8
 
 
 def get_test_set():
-    test_files = ['../data/flow_based/Tuesday-WH-generate-labeled.csv',
-                '../data/flow_based/Wednesday-WH-generate-labeled.csv',
-                '../data/flow_based/Thursday-WH-generate-labeled.csv',
-                '../data/flow_based/Friday-WH-generate-labeled.csv']
+    test_files = ['../data/flow_based/new_dataset/Test.csv']
 
-    train_min = np.load('../data/flow_based/x_train_meta/train_min.npy')
-    train_max = np.load('../data/flow_based/x_train_meta/train_max.npy')
+    train_min = np.load('../data/flow_based/new_dataset/train_min.npy')
+    train_max = np.load('../data/flow_based/new_dataset/train_max.npy')
 
     x_test_all = []
     y_test_all = []
@@ -32,9 +29,9 @@ def get_test_set():
         url_data = test_files[i]
         df = pd.read_csv(url_data)
 
-        feats = df.iloc[:,8:]
-        ds_port = df.iloc[:,5]
-        df = pd.concat([ds_port,feats],axis=1)
+#        feats = df.iloc[:,8:]
+#        ds_port = df.iloc[:,5]
+#        df = pd.concat([ds_port,feats],axis=1)
 
         labels = df.iloc[:,-1].values
         label_set = set(labels)
@@ -77,12 +74,12 @@ def test_step(x):
     score = tf.reduce_sum(score)
     return score
 
-label_names = ['BENIGN','FTP-Patator','SSH-Patator','DoS slowloris','DoS Slowhttptest','DoS Hulk','DoS GoldenEye','Heartbleed','Web Attack','Infiltration', 'Bot', 'PortScan', 'DDoS']
+label_names = ['BENIGN', 'Bot', 'FTP-BruteForce', 'SSH-Bruteforce','DDoS attacks-LOIC-HTTP', 'DDOS attack-LOIC-UDP','DDOS attack-HOIC', 'DoS attacks-GoldenEye', 'DoS slowloris','DoS Slowhttptest', 'DoS Hulk', 'Infiltration', 'Brute Force -Web','Brute Force -XSS', 'SQL Injection']
 
 for attack_type in label_names:
 
     print("#####################" + attack_type + "######################")
-    model = tf.keras.models.load_model('../models/flw_model/')
+    model = tf.keras.models.load_model('../models/flw_model_new/')
 
     x_test, y_test, train_min, train_max, decimal_features = get_test_set()
     num_input = x_test.shape[1]

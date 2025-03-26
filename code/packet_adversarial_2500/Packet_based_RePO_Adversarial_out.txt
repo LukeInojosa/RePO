@@ -1,0 +1,12 @@
+(11837595, 29) (11837595,)
+(110755, 29)
+0 8.344650268554688e-06
+2479 5.107280015945435
+TPR in normal setting for FTP-Patator is 0.6750
+duration: 7478.550094366074
+TPR in adversarial setting for FTP-Patator is 0.6712
+(11837595, 29) (11837595,)
+(138640, 29)
+0 6.4373016357421875e-06
+2479 5.128042459487915
+TPR in normal setting for SSH-Patator is 0.1855
