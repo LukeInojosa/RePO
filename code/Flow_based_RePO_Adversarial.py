@@ -77,7 +77,7 @@ def test_step(x):
     score = tf.reduce_sum(score)
     return score
 
-label_names = ['BENIGN','FTP-Patator','SSH-Patator','DoS slowloris','DoS Slowhttptest','DoS Hulk','DoS GoldenEye','Heartbleed','Web Attack','Infiltration', 'Bot', 'PortScan', 'DDoS']
+label_names = ['DoS Slowhttptest']
 
 for attack_type in label_names:
 

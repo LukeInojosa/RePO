@@ -1,0 +1,42 @@
+#####################DoS Hulk######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(230124, 77)
+999 2.742077112197876
+TPR in normal setting for DoS Hulk is 0.9440
+DoS Hulk (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.7130
+TPR of the victim's NIDS: 0.7700
+#####################DoS GoldenEye######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(10293, 77)
+999 2.254444122314453
+TPR in normal setting for DoS GoldenEye is 0.7500
+DoS GoldenEye (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.7500
+TPR of the victim's NIDS: 0.7610
+#####################Heartbleed######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(11, 77)
+10 0.017779827117919922
+TPR in normal setting for Heartbleed is 1.0000
+Heartbleed (11, 77)
+TPR of the attacker's local copy of the NIDS: 1.0000
+TPR of the victim's NIDS: 1.0000
+#####################Web Attack######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(0, 77)
+10 4.5299530029296875e-06
+TPR in normal setting for Web Attack is nan
+Web Attack (0, 77)

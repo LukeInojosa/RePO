@@ -1,0 +1,50 @@
+#####################BENIGN######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(1741803, 77)
+999 3.986220598220825
+TPR in normal setting for BENIGN is 0.1000
+BENIGN (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0710
+TPR of the victim's NIDS: 0.1010
+#####################FTP-Patator######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(7935, 77)
+999 2.245476722717285
+TPR in normal setting for FTP-Patator is 0.5020
+FTP-Patator (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0050
+TPR of the victim's NIDS: 0.1620
+#####################SSH-Patator######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(5897, 77)
+999 2.39902400970459
+TPR in normal setting for SSH-Patator is 0.4980
+SSH-Patator (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.2360
+#####################DoS slowloris######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(5796, 77)
+999 2.28774094581604
+TPR in normal setting for DoS slowloris is 0.6590
+DoS slowloris (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.5570
+TPR of the victim's NIDS: 0.6390
+#####################DoS Slowhttptest######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(5499, 77)

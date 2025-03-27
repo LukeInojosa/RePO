@@ -6,8 +6,8 @@
 #SBATCH -c 32
 #SBATCH --mem 64G
 #SBATCH -o job.log
-#SBATCH --output=flow_adversarial_new/Flow_based_RePO_Adversarial_new_1000_out.txt
-#SBATCH --error=flow_adversarial_new/Flow_based_RePO_Adversarial_new_1000_error.txt
+#SBATCH --output=flow_adversarial_new/Flow_based_RePO_Adversarial_new_1000_out2.txt
+#SBATCH --error=flow_adversarial_new/Flow_based_RePO_Adversarial_new_1000_error2.txt
 
 #carregar versão python
 module load Python/3.8

@@ -1,0 +1,43 @@
+#####################BENIGN######################
+0 ../data/flow_based/new_dataset/Test.csv
+(1330524, 77)
+999 2.713043689727783
+TPR in normal setting for BENIGN is 0.2220
+BENIGN (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.1260
+TPR of the victim's NIDS: 0.1460
+#####################Bot######################
+0 ../data/flow_based/new_dataset/Test.csv
+(144535, 77)
+999 2.2332000732421875
+TPR in normal setting for Bot is 0.0000
+Bot (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0160
+#####################FTP-BruteForce######################
+0 ../data/flow_based/new_dataset/Test.csv
+(53, 77)
+52 0.08587241172790527
+TPR in normal setting for FTP-BruteForce is 0.0566
+FTP-BruteForce (53, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0000
+#####################SSH-Bruteforce######################
+0 ../data/flow_based/new_dataset/Test.csv
+(94048, 77)
+999 2.3841567039489746
+TPR in normal setting for SSH-Bruteforce is 0.0000
+SSH-Bruteforce (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0000
+#####################DDoS attacks-LOIC-HTTP######################
+0 ../data/flow_based/new_dataset/Test.csv
+(575364, 77)
+999 2.4939308166503906
+TPR in normal setting for DDoS attacks-LOIC-HTTP is 0.0040
+DDoS attacks-LOIC-HTTP (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.1190
+#####################DDOS attack-LOIC-UDP######################
+0 ../data/flow_based/new_dataset/Test.csv
+(1730, 77)

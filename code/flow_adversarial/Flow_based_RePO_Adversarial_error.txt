@@ -31,3 +31,27 @@ Flow_based_RePO_Adversarial.py:260: RuntimeWarning: invalid value encountered in
 WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
 WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
 WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
+WARNING:tensorflow:No training configuration found in save file, so the model was *not* compiled. Compile it manually.
+Traceback (most recent call last):
+  File "Flow_based_RePO_Adversarial.py", line 97, in <module>
+    score_temp = test_step(sample)
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 780, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 814, in _call
+    results = self._stateful_fn(*args, **kwds)
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 2829, in __call__
+    return graph_function._filtered_call(args, kwargs)  # pylint: disable=protected-access
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1843, in _filtered_call
+    return self._call_flat(
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 1923, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 545, in call
+    outputs = execute.execute(
+  File "/home/CIN/lims/RePO/lib/python3.8/site-packages/tensorflow/python/eager/execute.py", line 59, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.FailedPreconditionError:  Error while reading resource variable _AnonymousVar10 from Container: localhost. This could mean that the variable was uninitialized. Not found: Resource localhost/_AnonymousVar10/N10tensorflow3VarE does not exist.
+	 [[{{node flow_model/StatefulPartitionedCall/StatefulPartitionedCall/dense_3/BiasAdd/ReadVariableOp}}]] [Op:__inference_test_step_1115]
+
+Function call stack:
+test_step
+

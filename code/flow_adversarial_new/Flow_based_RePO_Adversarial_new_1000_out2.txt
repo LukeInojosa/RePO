@@ -1,0 +1,43 @@
+#####################DDOS attack-LOIC-UDP######################
+0 ../data/flow_based/new_dataset/Test.csv
+(1730, 77)
+999 2.7611937522888184
+TPR in normal setting for DDOS attack-LOIC-UDP is 1.0000
+DDOS attack-LOIC-UDP (1000, 77)
+TPR of the attacker's local copy of the NIDS: 1.0000
+TPR of the victim's NIDS: 1.0000
+#####################DDOS attack-HOIC######################
+0 ../data/flow_based/new_dataset/Test.csv
+(198861, 77)
+999 2.320387840270996
+TPR in normal setting for DDOS attack-HOIC is 0.0000
+DDOS attack-HOIC (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0000
+#####################DoS attacks-GoldenEye######################
+0 ../data/flow_based/new_dataset/Test.csv
+(41406, 77)
+999 2.4135007858276367
+TPR in normal setting for DoS attacks-GoldenEye is 0.0000
+DoS attacks-GoldenEye (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0000
+#####################DoS slowloris######################
+0 ../data/flow_based/new_dataset/Test.csv
+(9908, 77)
+999 2.334927558898926
+TPR in normal setting for DoS slowloris is 0.9240
+DoS slowloris (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.8920
+TPR of the victim's NIDS: 0.9240
+#####################DoS Slowhttptest######################
+0 ../data/flow_based/new_dataset/Test.csv
+(55, 77)
+54 0.10379624366760254
+TPR in normal setting for DoS Slowhttptest is 0.0182
+DoS Slowhttptest (55, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0182
+#####################DoS Hulk######################
+0 ../data/flow_based/new_dataset/Test.csv
+(145199, 77)

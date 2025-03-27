@@ -1,0 +1,44 @@
+#####################Infiltration######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(36, 77)
+35 0.2592499256134033
+TPR in normal setting for Infiltration is 0.6111
+Infiltration (36, 77)
+TPR of the attacker's local copy of the NIDS: 0.4722
+TPR of the victim's NIDS: 0.5556
+#####################Bot######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(1956, 77)
+999 2.684880018234253
+TPR in normal setting for Bot is 0.0280
+Bot (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0220
+TPR of the victim's NIDS: 0.0270
+#####################PortScan######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(158839, 77)
+999 2.3599660396575928
+TPR in normal setting for PortScan is 0.1320
+PortScan (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0900
+TPR of the victim's NIDS: 0.1410
+#####################DDoS######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(128025, 77)
+999 2.3772971630096436
+TPR in normal setting for DDoS is 0.5500
+DDoS (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.5480
+TPR of the victim's NIDS: 0.5540
