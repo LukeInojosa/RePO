@@ -57,6 +57,7 @@ benign_scores = all_scores[y_test=='BENIGN']
 benign_scores_sorted = np.sort(benign_scores)
 thr_ind = int(np.ceil(len(benign_scores_sorted)*fpr))
 thr = benign_scores_sorted[-thr_ind]
+print("THRESHOLD:", thr)
 
 for i in range(len(label_names)):
     #### Exclude web attacks from results
