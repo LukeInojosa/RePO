@@ -1,0 +1,11 @@
+#####################DoS Slowhttptest######################
+0 ../data/flow_based/Tuesday-WH-generate-labeled.csv
+1 ../data/flow_based/Wednesday-WH-generate-labeled.csv
+2 ../data/flow_based/Thursday-WH-generate-labeled.csv
+3 ../data/flow_based/Friday-WH-generate-labeled.csv
+(5499, 77)
+999 1.9592115879058838
+TPR in normal setting for DoS Slowhttptest is 0.9950
+DoS Slowhttptest (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.7520
+TPR of the victim's NIDS: 0.9570

@@ -1,0 +1,14 @@
+#####################DoS Hulk######################
+0 ../data/flow_based/new_dataset/Test.csv
+(145199, 77)
+999 1.6585736274719238
+TPR in normal setting for DoS Hulk is 0.0000
+DoS Hulk (1000, 77)
+TPR of the attacker's local copy of the NIDS: 0.0000
+TPR of the victim's NIDS: 0.0000
+#####################Infiltration######################
+0 ../data/flow_based/new_dataset/Test.csv
+(118483, 77)
+999 1.1236488819122314
+TPR in normal setting for Infiltration is 0.1300
+Infiltration (1000, 77)
